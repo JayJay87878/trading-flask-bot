@@ -1,0 +1,86 @@
+Timestamp,Message
+2025-10-07T08:36:40.299706,"Trend table for EUR_USD:
+              trend  confidence                                                      reasons
+timeframe                                                                                   
+M1         Sideways          50                                     price < MA;poi_support=1
+M3         Sideways          42                                                   price < MA
+M5         Sideways          38                       MA slope down;price < MA;poi_support=1
+M15        Sideways          38                       MA slope down;price < MA;poi_support=3
+H1         Sideways          38                       MA slope down;price < MA;poi_support=2
+H4         Sideways          48  MA slope down;recent MA cross bull;price < MA;poi_support=4
+D1             Bull          62                         MA slope up;price < MA;poi_support=7"
+2025-10-07T08:36:45.256216,"Trend table for GBP_USD:
+              trend  confidence                                                      reasons
+timeframe                                                                                   
+M1         Sideways          50                                     price < MA;poi_support=7
+M3         Sideways          50                                     price < MA;poi_support=1
+M5         Sideways          38                       MA slope down;price < MA;poi_support=2
+M15        Sideways          38                       MA slope down;price < MA;poi_support=4
+H1         Sideways          50                                    price < MA;poi_support=11
+H4             Bull          88    MA slope up;recent MA cross bull;price > MA;poi_support=8
+D1         Sideways          42  MA slope down;recent MA cross bear;price > MA;poi_support=5"
+2025-10-07T08:36:49.409657,"Trend table for USD_JPY:
+              trend  confidence                                      reasons
+timeframe                                                                   
+M1         Sideways          57                                   price > MA
+M3             Bull          68              recent MA cross bull;price > MA
+M5             Bull          65                     price > MA;poi_support=1
+M15            Bull          78         MA slope up;price > MA;poi_support=1
+H1             Bull          70                       MA slope up;price > MA
+H4             Bull          80  MA slope up;recent MA cross bull;price > MA
+D1             Bull          78         MA slope up;price > MA;poi_support=3"
+2025-10-07T08:36:54.016826,"Trend table for XAU_USD:
+              trend  confidence                                                      reasons
+timeframe                                                                                   
+M1             Bull          65                                     price > MA;poi_support=2
+M3             Bull          65                                     price > MA;poi_support=3
+M5         Sideways          38                       MA slope down;price < MA;poi_support=7
+M15        Sideways          28  MA slope down;recent MA cross bear;price < MA;poi_support=5
+H1             Bull          70                                       MA slope up;price > MA
+H4             Bull          70                                       MA slope up;price > MA
+D1             Bull          70                                       MA slope up;price > MA"
+2025-10-07T08:36:58.432248,"Trend table for GBP_JPY:
+              trend  confidence                                      reasons
+timeframe                                                                   
+M1             Bull          65                     price > MA;poi_support=3
+M3             Bull          65                     price > MA;poi_support=2
+M5         Sideways          50                     price < MA;poi_support=1
+M15        Sideways          30                     MA slope down;price < MA
+H1             Bull          70                       MA slope up;price > MA
+H4             Bull          80  MA slope up;recent MA cross bull;price > MA
+D1             Bull          60  MA slope up;recent MA cross bear;price > MA"
+2025-10-07T08:37:02.602857,"Trend table for AUD_JPY:
+              trend  confidence                                      reasons
+timeframe                                                                   
+M1         Sideways          57                                   price > MA
+M3         Sideways          57                                   price > MA
+M5         Sideways          42                                   price < MA
+M15        Sideways          38       MA slope down;price < MA;poi_support=4
+H1             Bull          78         MA slope up;price > MA;poi_support=1
+H4             Bull          80  MA slope up;recent MA cross bull;price > MA
+D1             Bull          70                       MA slope up;price > MA"
+2025-10-07T08:37:06.799144,"Trend table for NZD_JPY:
+              trend  confidence                                                    reasons
+timeframe                                                                                 
+M1             Bull          65                                   price > MA;poi_support=2
+M3             Bull          65                                   price > MA;poi_support=1
+M5         Sideways          30                                   MA slope down;price < MA
+M15        Sideways          38                     MA slope down;price < MA;poi_support=4
+H1             Bull          78                       MA slope up;price > MA;poi_support=3
+H4             Bull          88  MA slope up;recent MA cross bull;price > MA;poi_support=7
+D1         Sideways          52                     MA slope down;price > MA;poi_support=8"
+2025-10-07T08:37:11.844000,"Trend table for CAD_JPY:
+              trend  confidence                                                      reasons
+timeframe                                                                                   
+M1         Sideways          57                                                   price > MA
+M3         Sideways          57                                                   price > MA
+M5             Bull          65                                     price > MA;poi_support=1
+M15            Bull          70                                       MA slope up;price > MA
+H1             Bull          70                                       MA slope up;price > MA
+H4             Bull          80                  MA slope up;recent MA cross bull;price > MA
+D1         Sideways          42  MA slope down;recent MA cross bear;price > MA;poi_support=5"
+2025-10-07T08:37:11.844760,"SMC bot start (DRY_RUN=True, BACKTEST_MODE=False). Execution TF: M5"
+2025-10-07T08:37:15.074791,EUR_USD BUY rejected: higher-TF confirmation failed
+2025-10-07T08:37:18.662080,GBP_USD SELL rejected: higher-TF confirmation failed
+2025-10-07T08:37:21.885904,USD_JPY SELL rejected: higher-TF trend mismatch (Bull)
+2025-10-07T08:37:25.229436,XAU_USD SELL rejected: higher-TF trend mismatch (Bull)
